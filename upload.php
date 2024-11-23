@@ -49,3 +49,29 @@ if ($uploadOk == 0) {
     }
   }
 ?>
+
+
+
+
+
+
+
+<?php
+/*****
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $studentName = $_POST['studentName'];
+
+    if ($_FILES['photo']['error'] == UPLOAD_ERR_OK) {
+        $uploadDir = 'uploads/';
+        $uploadFile = $uploadDir . basename($_FILES['photo']['name']);
+        
+        if (move_uploaded_file($_FILES['photo']['tmp_name'], $uploadFile)) {
+            $photoPath = $uploadFile;
+            echo "File uploaded successfully.";
+        } else {
+            echo "Error uploading file.";
+        }
+    }
+}
+*/
+?>
